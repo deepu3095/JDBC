@@ -1,0 +1,13 @@
+<web-app>
+<element>
+<servlet>
+        <servlet-name>CourseServlet</servlet-name>
+        <servlet-class>servlet.CourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CourseServlet</servlet-name>
+        <url-pattern>/courses</url-pattern>
+    </servlet-mapping>
+</element>
+    
+</web-app>
